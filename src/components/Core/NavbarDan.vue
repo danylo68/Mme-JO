@@ -29,7 +29,7 @@ font-family: Shadows Into Light Two, sans-serif;
     </v-btn> 
 
      <v-btn text @click="$vuetify.goTo('#pricer')" >
-    <span>Tarif</span>  
+    <span>Tarifs</span>  
     </v-btn> 
     
     <v-btn text @click="$vuetify.goTo('#navfoot')" >
