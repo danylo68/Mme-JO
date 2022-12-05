@@ -16,12 +16,11 @@
       width="900"
       height="700"
     >
-      <template v-slot:activator="{ on, attrs }">
-      
+      <template v-slot:activator="{ on, attrs }"> 
         <v-btn
         rounded
-         width="width"
-        height="height"
+         width="14rem"
+        height="4em"
         elevation="24"
           color="#E8D5CF" 
           v-bind="attrs"
@@ -29,7 +28,6 @@
         <v-icon large color="green lighten-1">mdi-plus</v-icon>
           <span>TARIFS GRAPHISME</span>
         </v-btn>
-        
       </template>
 
       <v-card class="modal_graph" >
@@ -88,8 +86,8 @@
       <template v-slot:activator="{ on, attrs }">
         <v-btn
       text--lighten-1
-      width="width"
-        height="height"
+      width="14rem"
+        height="4em"
         rounded
         elevation="20"
          color="#E8D5CF" 

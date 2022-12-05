@@ -9,7 +9,7 @@
 <div class="iconik">
 
   <v-btn 
-  class="font-weight dark--text "
+  class="font-weight indigo--text "
   href="https://www.linkedin.com/in/daniel-lopa/"
   target="_blank"
   icon>    
@@ -17,7 +17,7 @@
  </v-btn>
             
  <v-btn
-  class="font-weight dark--text "
+  class="font-weight Google--text "
   href="mailto:lesesquissesdemmej@gmail.com"
   target="_blank"
   icon>    
@@ -25,15 +25,16 @@
 </v-btn>
 
 <v-btn
-  class="font-weight dark--text "
+  class="font-weight Facebook--text "
   href="https://www.facebook.com/lesesquissesdemmej"
   target="_blank"
   icon>    
-<v-icon large>mdi-facebook</v-icon> 
+<v-icon class="mdi-facebook" large>mdi-facebook</v-icon> 
+
 </v-btn>
 
 <v-btn
-  class="font-weight dark--text "
+  class="font-weight instagram--text "
   href="https://instagram.com/lesesquissesdemmej?igshid=YmMyMTA2M2Y="
   target="_blank"
   icon>    
@@ -102,8 +103,18 @@
 
 
 <style lang="scss" scoped>
+.iconik{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+
 .title{
 opacity: 0.8;
 font-family: Shadows Into Light Two, sans-serif;
 }
+
 </style>

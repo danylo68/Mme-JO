@@ -5,14 +5,16 @@ font-family: Shadows Into Light Two, sans-serif;
 </style>
 
 
-
 <template>
 
-<v-app-bar class="topbar" app height="70" elevation="14" color="#E8D5CF">
+<v-app-bar class="topbar" app height="75" elevation="14" color="#E8D5CF">
 
 <v-toolbar-title  class="ml-4">
-  <v-avatar class="mb-2" size="60" elevation="14">
-  <v-img :src="require('@/assets/avatarJ3.jpg')"></v-img>
+<v-avatar class="elevation-4 mb-2" size="60">
+ 
+  <v-img 
+  :src="require('@/assets/avatarJ3.jpg')"
+  aspect-ratio="1.0"></v-img>
   </v-avatar>                  
   Mme Jo</v-toolbar-title>
         

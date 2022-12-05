@@ -4,9 +4,19 @@
 
 <v-container class="textjo text-center mb-8 mt-8" >
 <h1>Qui est Mme J</h1>
+
+
 <v-avatar class="elevation-20 mb-12 " size="130">
-                                <v-img class="ml-6" :src="require('@/assets/avatarJ2.jpeg')"></v-img>
+                                <v-img class="ml-6"
+                                :src="require('@/assets/avatarJ2.jpeg')"
+                                aspect-ratio="1.7"></v-img>
                             </v-avatar>
+
+
+
+<!-- <v-avatar class="elevation-20 mb-12 " size="130">
+                                <v-img class="ml-6" :src="require('@/assets/avatarJ2.jpeg')"></v-img>
+                            </v-avatar> -->
 
 <h2>Hello</h2>
 <h3>Moi c'est Mme J ,</h3>

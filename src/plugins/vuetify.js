@@ -22,7 +22,9 @@ export default new Vuetify({
                 accent: colors.indigo.base, // #3F51B5
                 amber: colors.amber.lighten5, //#FFF8E1
                 brown: colors.brown.lighten2, //#A1887F
-
+                instagram: colors.red.base, //#E1306C
+                Facebook: colors.blue.base, //#1877F2
+                Google: colors.red.base, //#EA4335
             },
         },
     },
