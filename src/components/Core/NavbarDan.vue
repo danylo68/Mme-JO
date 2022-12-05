@@ -8,13 +8,13 @@ font-family: Shadows Into Light Two, sans-serif;
 
 <template>
 
-<v-app-bar class="topbar" app height="80" elevation="14" color="#E8D5CF">
+<v-app-bar class="topbar" app height="70" elevation="14" color="#E8D5CF">
 
 <v-toolbar-title  class="ml-4">
   <v-avatar class="mb-2" size="60" elevation="14">
   <v-img :src="require('@/assets/avatarJ3.jpg')"></v-img>
   </v-avatar>                  
-  Mme J</v-toolbar-title>
+  Mme Jo</v-toolbar-title>
         
         <v-spacer></v-spacer>  
         

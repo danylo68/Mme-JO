@@ -1,5 +1,5 @@
 <template>
-<v-section fluid id="pricer" class="fill-height pa-0" >
+<v-section id="pricer" class="fill-height" fluid  >
 <v-img
   class="pragmatik"
  :src="require('@/assets/pricing.jpg')"
@@ -8,8 +8,7 @@
  aspect-ratio="1.5"
 >
 
-  <v-container class="pricebox justify-sm"   width="width"
-        height="height">
+  <v-container class="pricebox justify-sm" width="width" height="height">
   
   <div class="button_graphe">
     <v-dialog
@@ -20,7 +19,6 @@
       <template v-slot:activator="{ on, attrs }">
       
         <v-btn
-        
         rounded
          width="width"
         height="height"
@@ -28,23 +26,27 @@
           color="#E8D5CF" 
           v-bind="attrs"
           v-on="on">
-        <v-icon large color="green lighten-1" >mdi-plus</v-icon>
+        <v-icon large color="green lighten-1">mdi-plus</v-icon>
           <span>TARIFS GRAPHISME</span>
         </v-btn>
         
       </template>
 
-      <v-card class="modal_graph" color="#E8D5CF" >
+      <v-card class="modal_graph" >
      
         <v-card-title >
-         GRAPHISME
+        <h3>GRAPHISME</h3> 
         </v-card-title>
-        <v-spacer></v-spacer>
+       
         <v-card-text class="prestation" >
-         Les tarifs indiqués ici sont des tarifs de base et varie selon la complexité du projet, 
+         Les tarifs indiqués ici sont des tarifs de base et varie selon la complexité du projet,<br>
          chaque projet étant différend le tarif peut évoluer.
-         
-         <v-card-title>Print</v-card-title>
+        </v-card-text> 
+         <v-divider></v-divider>
+        <v-card-title >
+        <h4>Print</h4>  
+        </v-card-title>
+          <v-card-text>
          - Carte de visite à partir de 200 euros.<br>
          - Affiche à partir de 250 euros.<br>
          - Flyer(recto/verso) à partir de 300 euros.<br>
@@ -100,19 +102,20 @@
 
       <v-card class="modal_illustration" color="#E8D5CF" >
      
-        <v-card-title>
-         TARIF
+       
+         <v-card-title >
+        <h3>TARIF</h3> 
         </v-card-title>
-        
+        <v-divider></v-divider>
         <v-card-text class="presta_illustration">
-        <h5>ILLUSTRATION</h5>
+        <v-card-title >
+        <h>ILLUSTRATION</h> </v-card-title>
          Portrait bd 60€ (+5€ par personnes supplémentaire).<br>
          Faire-part 85€ (mariage, baptème, naissance, anniversaire,...).<br>
          Décors et mise en scène 20€.<br>
          Retouche + 10€.<br>
          Impression sur Demande.<br>
-         Envoie du fichier par Mails au format souhaité.<br>
-         
+         Envoie du fichier par Mails au format souhaité.<br>  
         </v-card-text>
 
         <v-divider></v-divider>
@@ -134,8 +137,6 @@
   </v-img>
 </v-section>
 </template>
-
-
 <!-- ::::::::::::::::::::::::::::::::::::::::::::::::: -->
 
 <style lang="scss" scoped>
@@ -178,12 +179,11 @@ height: auto;
 .button_graphe.v-btn{
 display: flex;
 width: 15vw;
-height: 13vh;
+height: 15vh;
 }
 
 .button_illustration.v-btn{
 display: flex;
-
 width: 15vw;
 height: 10vh;
 
@@ -247,13 +247,7 @@ font-size: 17px;
         }   
       
       }
-      
-      
-      
-      
-      
-      
-      
+       
     },
   }
 </script>

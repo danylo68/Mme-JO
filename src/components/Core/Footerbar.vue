@@ -26,7 +26,7 @@
 
 <v-btn
   class="font-weight dark--text "
-  href="mailto:lesesquissesdemmej@gmail.com"
+  href="https://www.facebook.com/lesesquissesdemmej"
   target="_blank"
   icon>    
 <v-icon large>mdi-facebook</v-icon> 
@@ -34,7 +34,7 @@
 
 <v-btn
   class="font-weight dark--text "
-  href="mailto:lesesquissesdemmej@gmail.com"
+  href="https://instagram.com/lesesquissesdemmej?igshid=YmMyMTA2M2Y="
   target="_blank"
   icon>    
 <v-icon large>mdi-instagram</v-icon> 
