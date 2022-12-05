@@ -1,13 +1,15 @@
 <template>
 <v-section id="navfoot" class="myFont" >
  <v-footer class="justify-center" color="#E8D5CF
+" elevation="14" height="80">
 
-"  elevation="14" height="80">
-      <div class="title font-weight-light dark--text text--lighten-1 ">
+      <div class="title">
+      
+      <div class="date">
         &copy; {{ (new Date()).getFullYear() }} — Mme J —
+        </div>
 
 <div class="iconik">
-
   <v-btn 
   class="font-weight indigo--text "
   href="https://www.linkedin.com/in/daniel-lopa/"
@@ -84,9 +86,7 @@
       </v-card>
     </v-dialog>
 </div>
-
 </div>
-
     </v-footer>
 </v-section>
 </template>
@@ -106,14 +106,13 @@
 .iconik{
 display: flex;
 justify-content: space-between;
-
-
 }
-
-
-
 .title{
 opacity: 0.8;
+font-family: Shadows Into Light Two, sans-serif;
+}
+
+.date{
 font-family: Shadows Into Light Two, sans-serif;
 }
 
